@@ -1,0 +1,53 @@
+:root{
+    font-size: 92.5%;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Montserrat';
+
+}
+
+
+.header{
+    background-color: black;
+    padding: 0.9rem;
+
+}
+
+.logo{
+    width: 15rem;
+}
+
+.alinhamento_header{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-right: 15rem;
+}
+
+.alinhamento_header nav{
+
+    font-size: 1.3rem;
+}
+
+.alinhamento_header hr{
+    height: 5rem;
+}
+
+.botao_menu{
+    color: rgb(224, 230, 79);
+    font-weight: bold;
+    margin-left: 1rem;
+    text-decoration: underline;
+    transition: 1s;
+}
+
+.botao_menu:hover{
+    color:  rgb(153, 155, 92);;
+}
